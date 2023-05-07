@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>小马宝莉测试卷</title>
+    <link rel="stylesheet" href="mlptest(1).css">
+    <script src="mlptest(1).js"></script>
+  </head>
+
+  <body>
+    <body background="background.jpg">
+    <ul id="start" style="display:block">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2 style="font-size:2vw ">Welcome To the Ponyville!</h2>
+      <h2 style="font-size:3vw ">小马宝莉测试卷</h2>
+      <br>
+      <br>
+      <div class="op">
+      <button onclick="start()">Start</button>
+      </div>
+    </ul>
+
+
+    <ul id="mlp" style="display:none">
+
+    <ul style="background-color:lavender;">
+    <fieldset class ="question" >
+    <p id="1">Q1: 苹果嘉儿的帽子叫____</p>
+    <img src="aj.png"
+    height="100">
+    <br/>
+    <label><input type="radio" name="answer1" value="0"/>费尔东多</label>
+    <br/>
+    <label ><input type="radio" name="answer1"  value="0"/>费尔西多</label>
+    <br/>
+    <label ><input type="radio" name="answer1"  value="20"/>费尔南多</label>
+    <br/>
+    <label ><input type="radio" name="answer1"  value="0"/>费尔北多</label>
+    </fieldset>
+
+    <fieldset class ="question">
+    <p id="2">Q2: 星光熠熠的小名叫____</p>
+    <label><input type="radio" name="answer2" value="0"/>小甜瓜</label>
+    <br />
+    <label ><input type="radio" name="answer2"  value="0"/>小冬瓜</label>
+    <br />
+    <label ><input type="radio" name="answer2"  value="0"/>小西瓜</label>
+    <br />
+    <label ><input type="radio" name="answer2"  value="20"/>小南瓜</label>
+    </fieldset>
+
+    <fieldset class ="question">
+    <p id="3">Q3: 紫悦一家在游轮抽中了一匹叫____的小马</p>
+    <label><input type="radio" name="answer3" value="0"/>流浪地球</label>
+    <br />
+    <label ><input type="radio" name="answer3"  value="20"/>星体追踪</label>
+    <br />
+    <label ><input type="radio" name="answer3"  value="0"/>宇宙探索</label>
+    <br />
+    <label ><input type="radio" name="answer3"  value="0"/>星球超越</label>
+    </fieldset>
+
+    <fieldset class ="question">
+    <p id="4">Q4: 失败者俱乐部队长叫____</p>
+    <label><input type="radio" name="answer4" value="0"/>闪宙</label>
+    <br />
+    <label ><input type="radio" name="answer4"  value="0"/>光宙</label>
+    <br />
+    <label ><input type="radio" name="answer4"  value="0"/>闪卡</label>
+    <br />
+    <label ><input type="radio" name="answer4"  value="20"/>闪尘</label>
+    </fieldset>
+
+    <fieldset class ="question">
+    <p id="5">Q5:音韵公主以前是____种族</p>
+    <label><input type="radio" name="answer5" value="20"/>飞马</label>
+    <br />
+    <label ><input type="radio" name="answer5"  value="0"/>陆马</label>
+    <br />
+    <label ><input type="radio" name="answer5"  value="0"/>独角兽</label>
+    </fieldset>
+
+    <fieldset class ="question">
+    <p id="6">附加题:甜苹果园有多少颗草？</p>
+    <label><input type="radio" name="answer6"  value="20"/>24567837颗</label>
+    <br />
+    <label><input type="radio" name="answer6"  value="10"/>28567837颗</label>
+    <br />
+    <label><input type="radio" name="answer6"  value="5"/>35567837颗</label>
+    <br />
+    <label><input type="radio" name="answer6"  value="0"/>64567837颗</label>
+    </fieldset>
+
+
+
+
+    <button onclick="coreSum()">交卷</button>
+
+    <ul id="mlpend" style="display:none">
+    <h3 style="padding:20px;text-align:center">不管测试几分，看到这里的你就是小马们的朋友啦！</h3>
+    <img src="mlpend.jpg">
+    </ul>
+  </ul>
+</ul>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+</body>
+</html>
